@@ -1,0 +1,13 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    display: flex;
+    background-color:blanchedalmond;
+    height: 80px;
+}
+.myntra{
+    height: 80px;
+    background-color: rgb(236, 182, 101);
+}

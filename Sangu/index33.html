@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="app.py">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Python Code Runner</title>
+</head>
+<body>
+    <h1>Python Code Runner</h1>
+    <form action="C:\Users\Shivanand\Desktop\LOGIN.py" method="post">
+        <label for="python_code">Enter Python Code:</label>
+        <textarea name="python_code" id="python_code" rows="5" cols="40"></textarea>
+        <br>
+        <input type="submit" value="Run Code">
+    </form>
+    {% if result %}
+        <h2>Result:</h2>
+        <pre>{{ result }}</pre>
+    {% endif %}
+</body>
+</html>
